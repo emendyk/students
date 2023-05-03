@@ -1,0 +1,30 @@
+How many random objects do you want to generate? 5
+Before sorting:
+Fourth-year: 96 credits
+Second-year: 60 credits
+Graduate: 130 credits
+Third-year: 75 credits
+Second-year: 49 credits
+
+After selection sort:
+Second-year: 49 credits
+Second-year: 60 credits
+Third-year: 75 credits
+Fourth-year: 96 credits
+Graduate: 130 credits
+Time taken by selection sort: 0.00825 milliseconds
+
+After quick sort:
+Second-year: 49 credits
+Second-year: 60 credits
+Third-year: 75 credits
+Fourth-year: 96 credits
+Graduate: 130 credits
+Time taken by quick sort: 0.01725 milliseconds
+
+Enter a number of credits to search for: 32
+32 not found in the array
+Time taken by sequential search: 0.017625 milliseconds
+
+32 not found in the array
+Time taken by binary search: 0.006542 milliseconds
