@@ -1,0 +1,38 @@
+# of Objects
+10
+50
+100
+1000
+
+SelectionSort
+0.00775 ms
+0.239292ms
+0.228583 ms
+9.697417 ms
+
+QuickSort
+0.016875ms
+0.056917 ms
+0.038333 ms
+0.471041 ms
+
+Sequential Search
+0.0425 ms
+0.025916ms
+0.052333 ms
+0.095375 ms
+
+Binary Search
+0.007125ms
+0.007709ms
+0.010083 ms
+0.007333 ms
+
+
+For QuickSort and SelectionSort my results reflect much of what we experienced in class. 
+QuickSort is slower initially on a smaller number of objects, but as the number of objects to sort increases QuickSort becomes significantly faster than SelectionSort.
+
+For this particular data set where the objects were sorted then shuffled before each search, binary search was much faster than sequential search. 
+This was most likely due to the program asking each search to find a particular value at an index in the ArrayList. 
+Binary search was faster than sequential search, especially for large collections but this could have also been due to that 
+I requested the program to try to find the same value in each search which was 23 credits and binary search was able to locate this value early in the ArrayList. 
